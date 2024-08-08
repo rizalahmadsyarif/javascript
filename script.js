@@ -1,10 +1,36 @@
-// var nama = prompt('masukan nama anda : ');
-// alert(nama);
+//Pola bintang ke1
+//  var s = '';
+//  for (var i = 0; i < 10; i++){
+//     for (var j = 0; j <= i; j++){
+//         s += '#';
+//     }
+//     s +='\n';
+// }
+// console.log(s);
+  
+//Pola Bintang ke2
 
- 
-var nilaiAwal = 1;
-while (nilaiAwal <=8) {
-    console.log('Hello World!' + nilaiAwal + 'x');
-    nilaiAwal++; 
+// var s = '';
+// for (var i = 10; i > 0; i--){
+//     for ( var j = 0; j < i; j++){
+//         s +='#';
+//     }
+//     s +='\n';
+// }
+// console.log(s);
+
+//pola bintang ke3
+
+var s = '';
+for (var i = 10; i > 0; i--){
+    for (var j = 0; j <= 10; j++){
+        if(j >= i){
+            s +='#';
+        } else {
+            s +=' ';
+        }
+    }
+    s +='\n';
 }
-    
+console.log(s);
+
